@@ -1,0 +1,24 @@
+
+   body{
+    margin: 0;
+    padding: 0;
+   }
+
+
+   img {
+    background-image: url("./slide-01.jpg");
+    filter: blur(8px);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   }
+
+.loader{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: rgba(240, 248, 255, 0.74);
+font-size: 25px;
+font-weight: 800;
+   }
