@@ -7,7 +7,7 @@
 
    img {
     background-image: url("./slide-01.jpg");
-    filter: blur(8px);
+    filter: blur(100px);
     position: relative;
     width: 100%;
     height: 100vh;
@@ -22,3 +22,13 @@ color: rgba(240, 248, 255, 0.74);
 font-size: 25px;
 font-weight: 800;
    }
+
+
+   .visibility{
+      visibility: hidden;
+      filter: blur(0px);
+   }
+/*    
+   .imageBlur{
+    
+   } */
